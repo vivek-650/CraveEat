@@ -12,6 +12,12 @@ import appStore from "./src/utils/appStore";
 import Cart from "./src/components/Cart";
 import HelpPage from "./src/components/Help";
 function App() {
+    if (process.env.NODE_ENV === 'development') {
+        console.log('Development mode');
+    } 
+    else {
+        console.log('Production mode');
+    }
     return(
         <Provider store={appStore}>
             <div>
