@@ -18,6 +18,7 @@ function App() {
     else {
         console.log('Production mode');
     }
+    
     return(
         <Provider store={appStore}>
             <div>
