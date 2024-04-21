@@ -20,7 +20,7 @@ function Body(){
         setCuisinesCarosalData(json?.data?.cards[0]?.card?.card?.gridElements?.infoWithStyle?.info)
         setInfo(json?.data?.cards[1]?.card?.card)
     }
-    console.log(info)
+    // console.log(info)
     useEffect(()=>{
         fetchData();
     }, []);

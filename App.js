@@ -13,10 +13,7 @@ import Cart from "./src/components/Cart";
 import HelpPage from "./src/components/Help";
 function App() {
     if (process.env.NODE_ENV === 'development') {
-        console.log('Development mode');
-    } 
-    else {
-        console.log('Production mode');
+        import.meta.hot.accept();
     } 
     return(
         <Provider store={appStore}>

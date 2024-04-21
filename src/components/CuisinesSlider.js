@@ -7,7 +7,7 @@ const CuisinesSlider = (props) => {
       let width = box.clientWidth;
       box.scrollLeft = box.scrollLeft - width;
       box.style.scrollBehavior = 'smooth';
-      console.log(width);
+      // console.log(width);
     };
 
     const next = () => {
