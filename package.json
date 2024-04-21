@@ -4,7 +4,7 @@
   "description": "Swiggy",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-autoinstall",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Vivek Anand",
