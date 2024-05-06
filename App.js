@@ -12,9 +12,6 @@ import appStore from "./src/utils/appStore";
 import Cart from "./src/components/Cart";
 import HelpPage from "./src/components/Help";
 function App() {
-    if (process.env.NODE_ENV === 'development') {
-        import.meta.hot.accept();
-    } 
     return(
         <Provider store={appStore}>
             <div>
